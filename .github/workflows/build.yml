@@ -4,10 +4,12 @@ on:
   push:
     branches: [ main ]
     paths:
+      - '.github/workflows/build.yml'
       - '**[Dd]ocker*'
   pull_request:
     branches: [ main ]
     paths:
+      - '.github/workflows/build.yml'
       - '**[Dd]ocker*'
   workflow_dispatch:
 
